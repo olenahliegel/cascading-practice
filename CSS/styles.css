@@ -2,6 +2,7 @@
     width: 300px;
     float: right;
     padding: 5px;
+    background-color: aqua;
   }
   .sidebar{
     width: 200px;
@@ -14,10 +15,18 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   .banner{
+    float: center;
     text-align: center;
+    background-color: rgb(17, 0, 255);
     height: 100px;
   }
   img {
     width: 300px;
     height: auto;  
   }
+.column p {
+    background-color: rgb(37, 196, 37);
+}
+.art-text {
+    color: bisque;
+}
