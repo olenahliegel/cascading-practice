@@ -1,32 +1,148 @@
-.column {
+@media screen and (min-width: 1200px) {
+  .column {
     width: 300px;
     float: right;
     padding: 5px;
     background-color: aqua;
   }
-  .sidebar{
+
+  .sidebar {
     width: 200px;
 
     background-color: blueviolet;
     color: white;
     float: left;
   }
-  body{
+
+  body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
-  .banner{
+
+  .banner {
     float: center;
     text-align: center;
     background-color: rgb(17, 0, 255);
     height: 100px;
   }
+
   img {
     width: 300px;
-    height: auto;  
+    height: auto;
   }
-.column p {
+
+  .column p {
     background-color: rgb(37, 196, 37);
-}
-.art-text {
+  }
+
+  .art-text {
     color: bisque;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 699px) {
+  .column {
+    width: 90%;
+    padding: 5px;
+    background-color: aqua;
+    margin: auto;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    float: left;
+  }
+
+  .parent-container {
+    margin: auto;
+  }
+
+  .sidebar {
+    width: 25%;
+    background-color: wheat;
+    color: white;
+    float: center;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .banner {
+    float: center;
+    text-align: center;
+    background-color: rgb(17, 0, 255);
+    height: 100px;
+    width: 100%;
+  }
+
+  img {
+    width: 50px;
+    height: auto;
+    float: left;
+    display: block;
+  }
+
+  .column p {
+    background-color: rgb(37, 196, 37);
+  }
+
+  .art-text {
+    color: bisque;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 90%;
+    padding: 5px;
+    background-color: aqua;
+    margin: auto;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    float: left;
+  }
+
+  .parent-container {
+    margin: auto;
+  }
+
+  .sidebar {
+    width: 25%;
+    background-color: wheat;
+    color: white;
+    float: center;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .banner {
+    float: center;
+    text-align: center;
+    background-color: rgb(218, 253, 19);
+    height: 100px;
+    width: 100%;
+  }
+
+  img {
+    width: 50px;
+    height: auto;
+    float: left;
+    display: block;
+  }
+
+  .column p {
+    background-color: rgb(214, 219, 244);
+  }
+
+  .art-text {
+    color: rgb(183, 119, 39);
+  }
 }
