@@ -1,6 +1,7 @@
 .column {
     width: 300px;
     float: right;
+    padding: 5px;
   }
   .sidebar{
     width: 200px;
